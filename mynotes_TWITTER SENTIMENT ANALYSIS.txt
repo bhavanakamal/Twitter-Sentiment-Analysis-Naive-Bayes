@@ -1,0 +1,25 @@
+TWITTER SENTIMENT ANALYSIS
+
+
+Process Description
+
+Section A: Preparing The Test Set
+* Step A.1: Getting the authentication credential
+* Step A.2: Authenticating our Python script
+* Step A.3: Creating the function to build the Test set
+
+Section B: Preparing The Training Set
+
+Section C: Pre-processing Tweets in The Data Sets- this process includes removing of URLs, usernames, hashtags, tokenizing etc. Both, our trainingData and testDataSet are preprocessed here
+
+Section D: Naive Bayes Classifier
+
+* Step D.1: Building the vocabulary- Build a vocabulary (list of words) of all the words resident in our processed training data set using nltk.FreqDist().
+ 
+* Step D.2: Matching tweets against our vocabulary
+
+* Step D.3: Building our feature vector
+
+* Step D.4: Training the classifier- it will only take us a function call to train the model as a Naive Bayes Classifier, since the latter is built into the library.i.e nltk.NaiveBayesClassifier.train(trainingFeatures)
+
+Section E: Testing The Model
