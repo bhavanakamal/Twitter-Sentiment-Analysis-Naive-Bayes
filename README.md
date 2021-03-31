@@ -32,10 +32,6 @@ The completed corpus will be in full-corpus.csv. A copy of all the raw data down
 The original work by Niek J. Sanders is a Twitter Sentiment Classifier which can be found [here] (http://www.sananalytics.com/lab/twitter-sentiment/). 
 My work is just a little modification to the code written in 2011 to comply with the latest Twitter API v1.1 requirements.
 
-### Support
-You may write to me for any help, I'll try and help you to the best of my capability.
 
-Karan Luthra 
-karanluthra06@gmail.com
 
 
