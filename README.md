@@ -5,6 +5,12 @@ Training set of 5513 hand-classified tweets for sentiment classifiers
 
 ----
 
+Please note that I have follwed the given towardsdatascience blog link to do this project and learn about data prepping and applying Naive Bayes Classifier to predict whether a piece of information (i.e. text, most commonly) indicates a positive, negative or neutral sentiment on the topic.
+
+**Credits**  to this towardsdatascience link - https://towardsdatascience.com/creating-the-twitter-sentiment-analysis-program-in-python-with-naive-bayes-classification-672e5589a7ed
+
+**==========================**
+
 This is an upgrade to the original script by Niek J. Sanders available [here] (http://www.sananalytics.com/lab/twitter-sentiment/). 
 Twitter's [REST API v1.1] (https://dev.twitter.com/docs/api/1.1) has made it mandatory for all requests to be authenticated using [oauth](https://dev.twitter.com/docs/auth/oauth#v1-1) and hence the script required to incorporate the authentication capability.
 
